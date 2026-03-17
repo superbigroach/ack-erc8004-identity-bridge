@@ -1,0 +1,79 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\tmp\\ack-repos\\ack-erc8004-identity-bridge\\contracts\\IAgentRegistry.sol": {
+      "lastModificationDate": 1773785153326,
+      "contentHash": "3caa7d1da9355dd9aa061285532d9385",
+      "sourceName": "contracts/IAgentRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "IAgentRegistry"
+      ]
+    },
+    "C:\\tmp\\ack-repos\\ack-erc8004-identity-bridge\\contracts\\SimpleAgentRegistry.sol": {
+      "lastModificationDate": 1773785163278,
+      "contentHash": "ac527e0bac5ee4133968e904bb9da2a5",
+      "sourceName": "contracts/SimpleAgentRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAgentRegistry.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "SimpleAgentRegistry"
+      ]
+    }
+  }
+}
